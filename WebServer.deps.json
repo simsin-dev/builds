@@ -9,10 +9,29 @@
     ".NETCoreApp,Version=v8.0/linux-x64": {
       "WebServer/1.0.0": {
         "dependencies": {
+          "LibGit2Sharp": "0.29.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "WebServer.dll": {}
+        }
+      },
+      "LibGit2Sharp/0.29.0": {
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "2.0.321"
+        },
+        "runtime": {
+          "lib/net6.0/LibGit2Sharp.dll": {
+            "assemblyVersion": "0.29.0.0",
+            "fileVersion": "0.29.0.0"
+          }
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.321": {
+        "native": {
+          "runtimes/linux-x64/native/libgit2-a2bde63.so": {
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -30,6 +49,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "LibGit2Sharp/0.29.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dVDXYqhNV62/aTi7fJaa1PkpIE0uUqlrZzLbM5yUrI6o8siCZIFlZv79sf2VYaFyluiduLpADD92on4AcVHvAA==",
+      "path": "libgit2sharp/0.29.0",
+      "hashPath": "libgit2sharp.0.29.0.nupkg.sha512"
+    },
+    "LibGit2Sharp.NativeBinaries/2.0.321": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6445xs5v3j84n68kKiZzJjpTvCtfwt3Z46MaToEMCN4NBWYICsMd1AstVGcTp1v/Gv+hdio0tD1NLmo3dgR64Q==",
+      "path": "libgit2sharp.nativebinaries/2.0.321",
+      "hashPath": "libgit2sharp.nativebinaries.2.0.321.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
